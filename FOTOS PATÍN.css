@@ -1,0 +1,104 @@
+.banner{
+    height: 600px;
+    position: relative;
+    background: #11d99b;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.banner_img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    opacity: 0.8;
+}  
+
+.banner_title{
+    line-height: 1.5;
+    font-size: 3.1em;   
+}
+
+.banner_p{
+    line-height: 1;
+    font-size: 2.15em;
+    opacity: 1.0em;
+    margin-top: 13em;  
+}
+
+.banner_info{
+    padding: 1em;
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    color: black;
+    margin: auto;   
+
+}
+
+.menunavegacion{
+    padding: 1rem;
+    margin: 0;
+    display:block;
+    background-color: dimgrey;
+    font-weight: Papyrus;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #333;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 70px;
+    color: fff;
+    text-align: center;
+}
+
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.persona__columna{
+    margin: 5px;
+}
+
+.personas .contenedor{
+    display: grid;
+}
+
+@media(min-width:520px){
+    .personas .contenedor{
+        grid-template-columns: repeat(2,50%);
+    }
+}
+
+@media(min-width:728px){
+    .personas .contenedor{
+        grid-template-columns: repeat(3,33.3%);
+    }
+}
+
+.persona__columna1{
+    margin-top: 7rem;
+}
+
+.persona__columna2{
+    margin-top: 6rem;
+}
+
+.persona__columna3{
+    margin-top: 8rem;
+}

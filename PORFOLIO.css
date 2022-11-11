@@ -1,0 +1,16 @@
+body{
+    background-color: #FFC2A3;
+    
+}
+.banner_img{
+    height:30%;
+    width:15%;
+    object-fit:fill;
+    opacity:10;
+}  
+header{
+    font-family: GeoSlab703 Md BT;
+    text-align: center;
+    background-color: #F09991;
+    padding: 1rem;
+}
